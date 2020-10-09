@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // fetch('localhost:3000/users')
+  //     .then(response => response.json())
+  //     .then(users => console.warn(users))
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +24,11 @@ function App() {
       </header>
     </div>
   );
+  // test(){
+  //   fetch('localhost:3000/users')
+  //     .then(response => response.json())
+  //     .then(users => console.warn(users))
+  // }
 }
 
 export default App;
